@@ -1,0 +1,429 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --back-color: rgba(0, 0, 0, 0.32);
+  --color: rgb(197, 32, 32);
+  --des-btn-back-color: ;
+}
+
+.welcome {
+  background-image: url(Images/dillon-kydd-3Ignkeds3w8-unsplash.jpg);
+  background-color: var(--back-color);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* @font-face {
+  font-family: 'Roboto-Italic';
+  font-weight: 200;
+  src: url('Roboto woff/robotocondensed-italic-webfont.woff') format('woff'),
+    url('Roboto woff/robotocondensed-italic-webfont.woff2') format('woff2');
+} */
+
+.header {
+  max-width: 80rem;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem 1rem 2rem;
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #00ff00;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: end;
+  gap: 2rem;
+}
+
+.main-nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 540;
+}
+
+.header-btn {
+  display: flex;
+  gap: 1.32rem;
+}
+.btn {
+  padding: 0.2rem 0.2rem;
+  width: 7rem;
+  height: 2.7rem;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  background-color: rgba(69, 99, 95, 0.979);
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px #fff;
+  transition: all 0.3s;
+}
+.home-div {
+  max-width: 49rem;
+  height: auto;
+  padding: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+  
+.highlights{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anime {
+   font-size: 3rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+
+}
+.bold-name {
+  text-transform: uppercase;
+  font-size: 3rem;
+  border-bottom: 1px solid #bbb;
+}
+.description {
+  font-size: 1rem;
+  color: #fff;
+}
+.button {
+  width: 9rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+}
+.des-btn {
+  padding: 0.3rem 0.6rem;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  background-color: rgba(106, 114, 113, 0.925);
+  text-align: center;
+  /* transition: all 0.3s; */
+}
+.des-btn:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--color);
+  transition: all 3s;
+}
+.main-page-images {
+  display: flex;
+  justify-content: right;
+  align-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  padding: auto 1px;
+  height: 100%;
+}
+.image-div {
+}
+.image-1 {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 15px;
+}
+.image-1:hover {
+  border: none;
+  background-color: rgba(106, 114, 113, 0.603);
+  transition: all 0.3s;
+  border: none;
+  box-shadow: inset 0 0 0 2px var(--color);
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+  padding: 590px 10px;
+}
+.img-cpt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.hero {
+  background-color: rgb(66, 55, 55);
+  background-size: cover;
+  background-attachment: scroll;
+  height: auto;
+  width: 100%;
+}
+
+.hero-section {
+  padding: 5.5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.brf-dsc {
+  color: var(--color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: auto;
+}
+
+.dsc-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #fff;
+}
+/****************************/
+/* SECTION-TESTIMONIAL */
+/****************************/
+
+.section-testimonial {
+  background-color: #3469ab;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+.testimonial-h2 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6.4rem 3.2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.testimonials {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4.8rem;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.testimonial-img {
+  width: 11rem;
+  height: 12.5rem;
+  border-radius: 10%;
+}
+.testimonial-text {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.testimonial-name {
+  font-size: 1.4rem;
+}
+
+.hero-section-properties {
+  background-image: linear-gradient(
+    to top,
+    rgba(245, 214, 214, 0.479) 50%,
+    rgba(236, 236, 236, 0.575) 50%
+  );
+  background-position: center;
+  width: 100%;
+  max-height: 69rem;
+  padding: auto;
+}
+.hero-section-properties-heading {
+  color: var(--color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.hero-grid-img-cont{
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.4rem;
+}
+.hero-grid-img{
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+.img-container{
+
+}
+.hero-img{
+width: 100%;
+height: 20rem;
+
+}
+
+.house-details{
+  background-color: rgba(36, 184, 31, 0.829);
+  margin: -4px;
+}
+.house-name{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+.house-link{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+
+}
+.house-link:hover{
+  color: rgb(36, 30, 28);
+  transition: all 0.3s;
+}
+.img-price{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.img-detail{
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  gap: 10rem;
+}
+.img-desc{
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column; 
+}
+.hero-house-desc{
+  color: #55555594;
+  display: flex;
+  padding: 0.8rem;
+  justify-content: space-around;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-house-details{
+  font-size: 1.2rem;
+  color: #fff;
+}
+/****************************/
+/* FOOTER */
+/****************************/
+
+.footer {
+  max-width: 100rem;
+  padding: 8rem 3.2rem;
+  margin: 0 auto;
+  color: #000;
+  border-top: 1px solid #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid--footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  gap: 6.1rem;
+}
+.footer-logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo:link,
+.footer-logo:visited {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-logo-name {
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: #00ff00;
+  text-align: left;
+}
+
+
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  font-size: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
